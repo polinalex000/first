@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(){
+    float x, x_2, x_4, x_8, x_16, x_32, x_64;
+    scanf("%f", &x);
+    x_2 = x*x;
+    x_4 = x_2*x_2;
+    x_8 = x_4*x_4;
+    x_16 = x_8*x_8;
+    x_32 = x_16*x_16;
+    x_64 = x_32*x_32;
+    printf("%f", x_64);
+}
